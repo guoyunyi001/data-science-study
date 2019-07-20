@@ -27,3 +27,4 @@ a method of estimating the parametor which maximizes the probability or the like
 - Confidence interval
  for a random smaple from a normal distibution, the (1-&alpha)% confidence interval for the mean
 
+$$(x-z_{\alpha/2}(\sigma/\sqrt{n}), x+z_{\alpha/2}(\sigma/\sqrt{n}))$$
