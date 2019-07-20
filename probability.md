@@ -4,17 +4,26 @@
 - Bayes'Theorem
 
 
-### Distribution
-#### Discrete Random Variable
-#### Continuous Random Variable
-###### Binomial Distribution
-  A discrete random variable X is a binomial random variable if:
-- An experiment, or trial, is performed in exactly the same way n times.
-Each of the n trials has only two possible outcomes.  One of the outcomes is called a "success," while the other is called a "failure." Such a trial is called a  Bernoulli trial.
-- The n trials are independent.
-- The probability of success, denoted p, is the same for each trial. The probability of failure is q = 1 − p.
-- The random variable X = the number of successes in the n trials.
-######Poisson Distribution
- the discrete random variable X denote the number of times an event occurs in an interval of time (or space). Then X may be a Poisson random variable with x = 0, 1, 2, ...
+## Distribution
+#### Discrete Distribution
+#### Continuous Distribution
+- Binomial Distribution
+- Pisson Distribution
+- Normal Distribution
+#### Birvariate Distribution
+- Birvariate normal distirbution
+#### Distribution of function of random variables
+- Central Limit Theorem: random sample from a distribution, if the sample size is 'sufficiently large' then the sample mean follows an approximate normal distribution. 
+- The use CLT: we can use normal distribution to discribe or estimate the  sample mean of a data sample
+ - Normal Approximation to Binomial
+ - Normal Approximation to Poisson
+ 
 
-######Normal Distribution
+## Estimation
+#### Point Estimation &Confidence Interval
+- Maximum likelihood estimation
+a method of estimating the parametor which maximizes the probability or the likelihood of getting the data we observed.
+- Unbaised estimator 
+- Confidence interval
+ for a random smaple from a normal distibution, the (1-&alpha)% confidence interval for the mean
+
