@@ -13,7 +13,13 @@
 
 - coefficient of determination or r-squared value: the r. We can interpret r-square by egression sum of squares divided by the total sum of squares. We can interpret r-square by saying "r2 ×100 percent of the variation in y is 'explained by' the variation in predictor x". However r-square doesn't tells the model of fit.
 
-- the hypothesis test for the population correlation ρ to learn of a linear association between two variable. t-test or ANOVA F- test for testing the population correlation coefficient H0: ρ = 0.
+- the hypothesis test for the population correlation ρ to learn of a linear association between two variable: 
+-- t-test for testing the population correlation coefficient H0: ρ = 0:
+-- ANOVA F- test for testing the population correlation coefficient H0: ρ = 0:
+Break down the total variation in y ("total sum of squares") into two components:
+a component that is "due to" the change in x ("regression sum of squares")
+a component that is just due to random error ("error sum of squares")
+If the regression sum of squares is a "large" component of the total sum of squares, it suggests that there is a linear association between the predictor x and the response y.
 
 #### Why we need to make those assumptions
 1.  The mean of the response at each value of the predictor is a linear function of the preditor
