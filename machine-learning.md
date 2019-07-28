@@ -6,7 +6,7 @@
 - the error at each value of the predictor are Normally distributed
 - the error at each value of the predictor have the equal variance
 
-#### Theorm 
+#### Theory 
 1. Parameter estimation: After have the veriables defined and sample selected, we find the parameters by looking for the "least squares estimates", which minimize the sum of the squared prediction errors.
 2. Model ilustration & evualation: 
 - the variance of estimated mean of response, $\sigma^2$ : how much the responses (y) vary around the (unknown) mean population regression line. We estimate is by sample variance, mean square error, the common variance of the many subpopulations
@@ -23,6 +23,8 @@ If the regression sum of squares is a "large" component of the total sum of squa
 
 #### Why we need to make those assumptions
 1.  The mean of the response at each value of the predictor is a linear function of the preditor
-2. Why errors should be normally distributed?
+2.  Why errors should be normally distributed?
+- Based on the Centrel Limited Theorm:as the number of these error gets larger, the distribution of the error term tends to approach the normal distribution 
 - The methods used for parameter estimation (MLE) can also imply the assumption of normally distributed random errors. 
-  This assumption is requered to make sure that the ordinary least squares estimators are unbiased.
+  This assumption is requered to make sure that the ordinary least squares estimators are unbiased, at which step we assume the expection of mean of error is zero.
+- WHen do model evaluation and testing the corelation between variable and response, t-test and F- test are not applicable unless the error term is normal distributed.
