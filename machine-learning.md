@@ -24,6 +24,8 @@ If the regression sum of squares is a "large" component of the total sum of squa
 #### Why we need to make those assumptions
 1.  The mean of the response at each value of the predictor is a linear function of the preditor
 2.  Why errors should be normally distributed?
+Good reference:
+[a link](https://www.quora.com/Why-is-the-error-term-normally-distributed)
 - Based on the Centrel Limited Theorm:as the number of these error gets larger, the distribution of the error term tends to approach the normal distribution 
 - The methods used for parameter estimation (MLE) can also imply the assumption of normally distributed random errors. 
   This assumption is requered to make sure that the ordinary least squares estimators are unbiased, at which step we assume the expection of mean of error is zero.
