@@ -1,3 +1,30 @@
+**Table of Contents**
+
+[TOCM]
+
+[TOC]
+
+##Linear Regression
+####Assumptions for Linear Reqression
+####Theory
+#####H5 header
+######H6 header
+#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
+#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+
+##Headers (Underline)
+
+H1 Header (Underline)
+=============
+
+H2 Header (Underline)
+-------------
+
+
 ## Linear Regression
 
 #### Assumptions for Linear Reqression
@@ -30,3 +57,11 @@ Good reference:
 - The methods used for parameter estimation (MLE) can also imply the assumption of normally distributed random errors. 
   This assumption is requered to make sure that the ordinary least squares estimators are unbiased, at which step we assume the expection of mean of error is zero.
 - When do model evaluation and testing the corelation between variable and response, t-test and F- test are not applicable unless the error term is normal distributed.
+
+## Logistic Regression
+
+## Tree Based Model
+
+#### Assumptions for Linear Reqression
+
+## Support Vector Machine
