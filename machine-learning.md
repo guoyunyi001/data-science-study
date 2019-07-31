@@ -39,7 +39,7 @@ Good reference:
 #### Regression Tree
 #### Classification Tree
 #### Bagging, Random Forests, Boosting
--Bagging
+- Bagging
 - Random Forests
 - Boosting
 
@@ -47,5 +47,8 @@ Good reference:
 #### Theory
 - Maximal Margin Classifer: calssification using a separating hyperplane by choosing the maximal margin hyperlane; the maximal margin hyperlane depends directly on only a small subset of the observations
 - support vector classifier (soft margin classifier): the generalization of the maximal margin classifier to the non-seperable case
-  Allow obeservation on the incoorect sided of the margain or hyperlane to better classification of most of the training observation
-  
+  Allow obeservation on the incoorect sided of the margain or hyperlane to better classification of most of the training observation. The observations that lies directly on the margin or on the wrong side of the margin for their class are support vectors. And only support vectors affect the classifier is in line with oir previous assertion that C controls the bias-variance trade-off of the support vector classifier. 
+   - Width of Margin M: we wanna maximize this number
+   - Slack variable e1, ..., en: where the ith observation is located, relativeto the hyperplane and relative to the margin
+   - Nonnegative tuning parameter C: nounds the sum of the e, it determines the number and serverity of the violations to the margin
+
