@@ -1,29 +1,3 @@
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
-
-##Linear Regression
-####Assumptions for Linear Reqression
-####Theory
-#####H5 header
-######H6 header
-#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-
-##Headers (Underline)
-
-H1 Header (Underline)
-=============
-
-H2 Header (Underline)
--------------
-
 
 ## Linear Regression
 
@@ -62,6 +36,16 @@ Good reference:
 
 ## Tree Based Model
 
-#### Assumptions for Linear Reqression
+#### Regression Tree
+#### Classification Tree
+#### Bagging, Random Forests, Boosting
+-Bagging
+- Random Forests
+- Boosting
 
 ## Support Vector Machine
+#### Theory
+- Maximal Margin Classifer: calssification using a separating hyperplane by choosing the maximal margin hyperlane; the maximal margin hyperlane depends directly on only a small subset of the observations
+- support vector classifier (soft margin classifier): the generalization of the maximal margin classifier to the non-seperable case
+  Allow obeservation on the incoorect sided of the margain or hyperlane to better classification of most of the training observation
+  
