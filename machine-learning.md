@@ -51,4 +51,7 @@ Good reference:
    - Width of Margin M: we wanna maximize this number
    - Slack variable e1, ..., en: where the ith observation is located, relativeto the hyperplane and relative to the margin
    - Nonnegative tuning parameter C: nounds the sum of the e, it determines the number and serverity of the violations to the margin
+- Support Vector Machine (SVM): enlarging the feature space in a specfic way by using kernels. 
+   - Logic: inner product between the new point x and each of the training points xi.
+   - Kernel: a function that quantifies the similarity of two observations. eg. linear kernel quantifies the similarity of a pair of observations user Pearson correlation. Polynomial kernel of degree d, which lease to a much more flexiable decision boundary. Radial kernel.
 
