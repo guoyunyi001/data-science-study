@@ -54,4 +54,5 @@ Good reference:
 - Support Vector Machine (SVM): enlarging the feature space in a specfic way by using kernels. 
    - Logic: inner product between the new point x and each of the training points xi.
    - Kernel: a function that quantifies the similarity of two observations. eg. linear kernel quantifies the similarity of a pair of observations user Pearson correlation. Polynomial kernel of degree d, which lease to a much more flexiable decision boundary. Radial kernel.
-
+- classification for K > 2, more than 2 classes: one-verse-one classification, one-verse-all classification
+- Relationship to logistic regression
