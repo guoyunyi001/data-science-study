@@ -27,6 +27,7 @@ a method of estimating the parametor which maximizes the probability or the like
 - Confidence interval
 reference link: https://statisticsbyjim.com/hypothesis-testing/hypothesis-tests-confidence-intervals-levels/
 https://statisticsbyjim.com/hypothesis-testing/confidence-prediction-tolerance-intervals/
+https://newonlinecourses.science.psu.edu/stat414/node/199/
  for a random smaple from a normal distibution, the (1-&alpha)% confidence interval for the mean
 
 $$(x-z_{\alpha/2}(\sigma/\sqrt{n}), x+z_{\alpha/2}(\sigma/\sqrt{n}))$$
