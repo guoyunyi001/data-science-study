@@ -39,3 +39,7 @@ confidence interval always lines with the significant level.
 the confidence interval and confidence level:
 a learge condidence level will lead to a wider confidence interval.
 Because you expected a higher percentage of value fall into the confidence interval, which required a wider range to cover a more value.
+
+Diffrence between prediction interval and confidence interval:
+The prediction interval will take the MSE intp account. Always has a wider range than the cofidence interval.
+https://rpubs.com/aaronsc32/regression-confidence-prediction-intervals
