@@ -20,11 +20,21 @@
  
 
 ## Estimation
-#### Point Estimation &Confidence Interval
+#### Point Estimation & Confidence Interval
 - Maximum likelihood estimation
 a method of estimating the parametor which maximizes the probability or the likelihood of getting the data we observed.
 - Unbaised estimator 
 - Confidence interval
+reference link: https://statisticsbyjim.com/hypothesis-testing/hypothesis-tests-confidence-intervals-levels/
+https://statisticsbyjim.com/hypothesis-testing/confidence-prediction-tolerance-intervals/
  for a random smaple from a normal distibution, the (1-&alpha)% confidence interval for the mean
 
 $$(x-z_{\alpha/2}(\sigma/\sqrt{n}), x+z_{\alpha/2}(\sigma/\sqrt{n}))$$
+
+confidence interval always lines with the significant level.
+- A confidence level determines the distance between the sample mean and the confidence limits.
+- A significance level determines the distance between the sample mean and the critical regions.
+
+the confidence interval and confidence level:
+a learge condidence level will lead to a wider confidence interval.
+Because you expected a higher percentage of value fall into the confidence interval, which required a wider range to cover a more value.
