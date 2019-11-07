@@ -22,6 +22,16 @@ a component that is "due to" the change in x ("regression sum of squares")
 a component that is just due to random error ("error sum of squares")
 If the regression sum of squares is a "large" component of the total sum of squares, it suggests that there is a linear association between the predictor x and the response y.
 
+- influential points
+outlier / leverage 
+outliner-extreme y value
+leverage-extrame x balue
+
+standardized residuals to determine outliners
+studentized residuals-delete the observations one at a time, each time fitting the regression model on remaining n-1 obervations
+Difference in fits (DFFITS)-the difference in fits quantifies the number of standard deviations that the fitted value changes when the ith data point is omitted.
+cook's distance-Cook's Di depends on both the residual, ei (in the first term), and the leverage, hii (in the second term). That is, both the x value and the y value of the data point play a role in the calculation of Cook's distance.
+
 #### Why we need to make those assumptions
 1.  The mean of the response at each value of the predictor is a linear function of the preditor
 2.  Why errors should be normally distributed?
