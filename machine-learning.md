@@ -4,6 +4,14 @@
 - The hat matrix is also known as the projection matrix because it projects the vector of observations, y, onto the vector of predictions, y^, thus putting the "hat" on y. 
 - Leverage: Leverage is a measure of the effect of a particular observation on the regression predictions due to the position of that observation in the space of the inputs.
 In general, the farther a point is from the center of the input space, the more leverage it has. 
+
+
+## Relationship between variables
+#### Relationship between categorical variable and numeric variable
+- Two categorical variable use Chi-square
+- Two or more quantitative variable (Continuous or discrete) use Pearson correlation (r),
+- One categorical and one quantitative variable (Continuous or discrete) use ANOVA.
+
 ## Linear Regression
 
 #### Assumptions for Linear Reqression
